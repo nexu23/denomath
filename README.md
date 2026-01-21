@@ -80,4 +80,4 @@ access.
 
 [**GitHub**](https://github.com/nexu23/denomath)
 
-[**CHANGELOG**]([https://github.com/nexu23/denomath/CHANGELOG.md](https://github.com/nexu23/denomath/blob/main/CHANGELOG.md))
+[**CHANGELOG**](https://github.com/nexu23/denomath/blob/main/CHANGELOG.md)
