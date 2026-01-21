@@ -1,0 +1,47 @@
+{
+	"lint": {
+		"rules": {
+			"tags": ["jsr"],
+			"include": [
+				"camelcase",
+				"no-var",
+				"no-eval",
+				"no-slow-types",
+				"eqeqeq"
+			]
+		}
+	},
+	"fmt": {
+		"singleQuote": true,
+		"useTabs": true,
+		"indentWidth": 4,
+		"newLineKind": "crlf"
+	},
+	"compilerOptions": {
+		"lib": [
+			"deno.window",
+			"deno.ns",
+			"esnext"
+		]
+	},
+	"tasks": {
+		"check": "deno fmt && deno lint ."
+	},
+	"name": "@nexu/denomath",
+	"version": "1.0.5",
+	"imports": {
+		"#/": "./src/"
+	},
+	"exports": {
+		".": "./mod.ts",
+		"./numbers": "./src/numbers/mod.ts",
+		"./arithmetic": "./src/arithmetic.ts",
+		"./complex": "./src/numbers/complex.ts",
+		"./reals": "./src/numbers/reals.ts",
+		"./types": "./src/types.ts",
+		"./constants": "./src/constants.ts",
+		"./helpers": "./src/helpers.ts",
+		"./stats": "./src/numbers/stats.ts"
+	},
+	"license": "MIT"
+}
