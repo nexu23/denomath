@@ -78,4 +78,6 @@ access.
 
 [**Registry on jsr.io**](https://jsr.io/@nexu/denomath)
 
-[**CHANGELOG**](./CHANGELOG.md)
+[**GitHub**](https://github.com/nexu23/denomath)
+
+[**CHANGELOG**](https://github.com/nexu23/denomath/CHANGELOG.md)
